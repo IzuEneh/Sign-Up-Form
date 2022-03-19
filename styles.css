@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+}
+
+.image-background {
+    background: center url(./assets/halie-west-25xggax4bSA-unsplash.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    flex: 0 1 33%;
+}
+
+.form-section {
+    background-color: brown;
+    flex: 1 1 auto;
+}
+
