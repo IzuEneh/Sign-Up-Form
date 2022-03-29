@@ -13,7 +13,18 @@ body {
 }
 
 .form-section {
-    background-color: brown;
     flex: 1 1 auto;
 }
+
+.form-fields form {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.form-coloumn {
+    display: flex;
+    flex-direction: column;
+}
+
 
