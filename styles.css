@@ -6,20 +6,23 @@ body {
 
 .image-background {
     background: center url(./assets/halie-west-25xggax4bSA-unsplash.jpg) ;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
     flex: 0 1 33%;
 }
 
-.form-section {
+.right-section {
     flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .form-fields form {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 32px;
 }
 
 .form-coloumn {
@@ -27,4 +30,6 @@ body {
     flex-direction: column;
 }
 
-
+.form-coloumn label:nth-child(n + 1) {
+    margin-top: 16px; 
+}
