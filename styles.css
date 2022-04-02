@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse;
+    src: url(./assets/fonts/Norse-Bold.otf);
+}
+
 body {
     display: flex;
     height: 100vh;
@@ -36,4 +41,25 @@ body {
 
 .form-coloumn label:nth-child(n + 1) {
     margin-top: 16px; 
+}
+
+.odin-text-background {
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.odin-text-background img {
+    height: 85%;
+    width: auto;
+}
+
+.odin-text-background span {
+    font-size: 6rem;
+    font-family: norse, 'Courier New', Courier, monospace;
 }
