@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    flex: 0 1 33%;
+    flex: 0 0 33%;
 }
 
 .right-section {
@@ -45,7 +45,7 @@ body {
 
 .odin-text-background {
     height: 150px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     top: 20%;
     display: flex;
@@ -62,4 +62,16 @@ body {
 .odin-text-background span {
     font-size: 6rem;
     font-family: norse, 'Courier New', Courier, monospace;
+}
+
+.blurb {
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 550;
+    padding-right: 45%;
+    bottom: 3rem;
+}
+
+.blurb div {
+    margin-top: 1.5rem;
 }
