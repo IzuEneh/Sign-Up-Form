@@ -75,3 +75,15 @@ body {
 .blurb div {
     margin-top: 1.5rem;
 }
+
+button {
+    margin: 2rem 0;
+    background-color: #596D48;
+    color: white;
+    width: 160px;
+    height: 2.3rem;
+    border-radius: 8px;
+    /* border-color: none; */
+    border-style: none;
+    border-width: 0px;
+}
