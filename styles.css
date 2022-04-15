@@ -92,3 +92,12 @@ button {
     border-style: none;
     border-width: 0px;
 }
+
+input {
+    border: 2px solid #E5E7EB;
+}
+input:focus {
+    outline: none;
+    border-color: rgb(0, 110, 255);
+    box-shadow: 1px 1px 2px  rgb(146, 146, 146);
+}
