@@ -94,10 +94,22 @@ button {
 }
 
 input {
-    border: 2px solid #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
 }
 input:focus {
     outline: none;
     border-color: rgb(0, 110, 255);
     box-shadow: 1px 1px 2px  rgb(146, 146, 146);
+}
+
+input.error {
+    outline: none;
+    border-color: rgb(255, 19, 19);
+}
+
+.error-text {
+    display: inline-block;
+    color: rgb(255, 19, 19);
+    font-size: 0.80rem;
 }
